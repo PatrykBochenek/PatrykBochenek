@@ -4,7 +4,7 @@
 
 **Full-stack engineer** · Python · React · FastAPI · Kafka · Redis
 
-_I build boring, reliable systems for finance — correctness over hype._
+_I build boring, reliable systems for finance and banking sectors_
 
 </div>
 
