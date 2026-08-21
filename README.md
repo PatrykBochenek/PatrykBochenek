@@ -1,13 +1,6 @@
 <div align="center">
 
-```
-██████╗ ████╗  ████████╗██████╗ ██╗   ██╗██╗  ██╗██████╗ ██████╗  ██████╗██╗  ██╗███████╗███╗   ██╗███████╗██╗  ██╗
-██╔══██╗██╔██╗ ╚══██╔══╝██╔══██╗╚██╗ ██╔╝██║ ██╔╝██╔══██╗██╔═══██╗██╔════╝██║  ██║██╔════╝████╗  ██║██╔════╝██║ ██╔╝
-██████╔╝███████╗   ██║   ██████╔╝ ╚████╔╝ █████╔╝ ██████╔╝██║   ██║██║     ███████║█████╗  ██╔██╗ ██║█████╗  █████╔╝
-██╔═══╝ ██╔══██╗   ██║   ██╔══██╗  ╚═══╝  ██╔═██╗ ██╔══██╗██║   ██║██║     ██╔══██║██╔══╝  ██║╚██╗██║██╔══╝  ██╔═██╗
-██║    ██║  ██║   ██║   ██║  ██║  ██╗    ██║  ██╗██████╔╝╚██████╔╝╚██████╗██║  ██║███████╗██║ ╚████║███████╗██║  ██╗
-╚═╝    ╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝  ╚═╝    ╚═╝  ╚═╝╚═════╝  ╚═════╝  ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝
-```
+# Patryk Bochenek
 
 **Full-stack engineer** · Python · React · FastAPI · Kafka · Redis
 
@@ -17,7 +10,7 @@ _I build boring, reliable systems for finance — correctness over hype._
 
 ```text
 $ whoami
-full-stack engineer · ex-finance/banking · deep in agentic workflows
+full-stack engineer · ex-finance/banking
 
 $ cat ~/now
 transaction-monitoring    real-time detection · Kafka + Redis
@@ -36,52 +29,10 @@ python react fastapi kafka redis typescript rust
 Cross-platform Python port management made simple. Check, find, scan, wait on and free TCP/UDP ports — fast, with a native Rust core and zero subprocesses.
 
 **ai-config** — [github.com/PatrykBochenek/ai-config](https://github.com/PatrykBochenek/ai-config)
-My personal AI workflow repo: opencode orchestration config, specialist `dev-*` subagents, rules, and a reproducible toolchain via mise. Building *with* agents.
+My personal AI workflow repo: opencode orchestration config, specialist `dev-*` subagents, rules, and a reproducible toolchain via mise.
 
 **ML-based network intrusion detection** — [github.com/PatrykBochenek/Machine-Learning-Based-Network-Intrusion-Detection-System](https://github.com/PatrykBochenek/Machine-Learning-Based-Network-Intrusion-Detection-System)
 ML-based intrusion detection research and implementation.
-
----
-
-## How I build with agents
-
-<details>
-<summary>opencode orchestration</summary>
-
-```mermaid
-flowchart LR
-  U[You] --> ORC[opencode orchestrator]
-  ORC --> LIB[dev-librarian]
-  ORC --> RES[dev-researcher]
-  ORC --> ARC[dev-architect]
-  ORC --> BLD[dev-builder]
-  ORC --> VER[dev-verifier]
-  ORC --> SCR[dev-scribe]
-  ORC --> PL[dev-planner]
-```
-
-`portly`, `ai-config`, and this profile are built and edited with these agent workflows.
-
-</details>
-
-<details>
-<summary>transaction monitoring flow</summary>
-
-```mermaid
-sequenceDiagram
-  participant Tx as Transaction
-  participant K as Kafka
-  participant S as Stream Processor
-  participant R as Redis
-  participant DB as Storage
-  Tx->>K: emit event
-  K->>S: consume
-  S->>R: cache / state
-  S->>DB: persist
-  S-->>K: alert → topic
-```
-
-</details>
 
 ---
 
