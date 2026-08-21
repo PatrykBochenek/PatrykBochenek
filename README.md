@@ -36,10 +36,6 @@ Finance & banking background — building systems that handle money, scale, and 
 
 ## Stats
 
-<!--START_SECTION:waka-->
-
-<!--END_SECTION:waka-->
-
 <p align="center">
   <img src="https://github-stats-extended.vercel.app/api?username=PatrykBochenek&show_icons=true&theme=dark&hide_rank=false&disable_animations=true" alt="GitHub stats" />
   <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=PatrykBochenek&layout=compact&langs_count=6" alt="Top languages" />
