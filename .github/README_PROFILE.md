@@ -7,4 +7,6 @@ at the top of the profile page.
 
 ## Structure
 
-- `README.md` — profile content (hook, current work, pinned projects, stack, stats, contact)
+- `README.md` — profile content (terminal-styled: hook, current work, projects, stack, contact)
+- Mermaid diagrams (native GitHub rendering) show the opencode agent stack and
+  the transaction-monitoring flow
