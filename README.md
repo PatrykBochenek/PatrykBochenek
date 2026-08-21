@@ -1,46 +1,106 @@
 <div align="center">
 
-# Patryk Bochenek
+```
+██████╗ ████╗  ████████╗██████╗ ██╗   ██╗██╗  ██╗██████╗ ██████╗  ██████╗██╗  ██╗███████╗███╗   ██╗███████╗██╗  ██╗
+██╔══██╗██╔██╗ ╚══██╔══╝██╔══██╗╚██╗ ██╔╝██║ ██╔╝██╔══██╗██╔═══██╗██╔════╝██║  ██║██╔════╝████╗  ██║██╔════╝██║ ██╔╝
+██████╔╝███████╗   ██║   ██████╔╝ ╚████╔╝ █████╔╝ ██████╔╝██║   ██║██║     ███████║█████╗  ██╔██╗ ██║█████╗  █████╔╝
+██╔═══╝ ██╔══██╗   ██║   ██╔══██╗  ╚═══╝  ██╔═██╗ ██╔══██╗██║   ██║██║     ██╔══██║██╔══╝  ██║╚██╗██║██╔══╝  ██╔═██╗
+██║    ██║  ██║   ██║   ██║  ██║  ██╗    ██║  ██╗██████╔╝╚██████╔╝╚██████╗██║  ██║███████╗██║ ╚████║███████╗██║  ██╗
+╚═╝    ╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝  ╚═╝    ╚═╝  ╚═╝╚═════╝  ╚═════╝  ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝
+```
 
-**Full-stack engineer** · Python, React, FastAPI, Kafka, Redis
+**Full-stack engineer** · Python · React · FastAPI · Kafka · Redis
 
-Finance & banking background — building systems that handle money, scale, and edge cases that never sleep.
+_I build boring, reliable systems for finance — correctness over hype._
 
 </div>
+
+```text
+$ whoami
+full-stack engineer · ex-finance/banking · deep in agentic workflows
+
+$ cat ~/now
+transaction-monitoring    real-time detection · Kafka + Redis
+portly                    open-source python port mgmt · Rust core
+agentic-dev               building with AI agents, not just using them
+
+$ echo $STACK
+python react fastapi kafka redis typescript rust
+```
 
 ---
 
-## What I'm working on now
+## Projects
 
-- **Transaction monitoring system** — real-time detection pipeline for financial transactions
-- **portly** — open-source Python port management library (native Rust core, zero subprocesses)
-- **Agentic workflow development** — building and orchestrating AI coding agents
+**portly** — [github.com/PatrykBochenek/portly](https://github.com/PatrykBochenek/portly)
+Cross-platform Python port management made simple. Check, find, scan, wait on and free TCP/UDP ports — fast, with a native Rust core and zero subprocesses.
 
-## Pinned projects
+**ai-config** — [github.com/PatrykBochenek/ai-config](https://github.com/PatrykBochenek/ai-config)
+My personal AI workflow repo: opencode orchestration config, specialist `dev-*` subagents, rules, and a reproducible toolchain via mise. Building *with* agents.
 
-- **[portly](https://github.com/PatrykBochenek/portly)** — Cross-platform Python port management made simple. Check, find, scan, wait on and free TCP/UDP ports — fast, with a native Rust core and zero subprocesses.
-- **[ai-config](https://github.com/PatrykBochenek/ai-config)** — My personal AI workflow repo: opencode orchestration config, specialist agents, rules, and reproducible toolchain (mise) — building *with* agents, not just using them.
-- **[Machine-Learning-Based-Network-Intrusion-Detection-System](https://github.com/PatrykBochenek/Machine-Learning-Based-Network-Intrusion-Detection-System)** — ML-based intrusion detection research and implementation.
+**ML-based network intrusion detection** — [github.com/PatrykBochenek/Machine-Learning-Based-Network-Intrusion-Detection-System](https://github.com/PatrykBochenek/Machine-Learning-Based-Network-Intrusion-Detection-System)
+ML-based intrusion detection research and implementation.
 
-## Tech stack
+---
 
-<div align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black" alt="React" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/Kafka-231F20?style=flat&logo=apachekafka&logoColor=white" alt="Kafka" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white" alt="Redis" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white" alt="Rust" />
-</div>
+## How I build with agents
 
-## Stats
+<details>
+<summary>opencode orchestration</summary>
 
-<p align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=PatrykBochenek&show_icons=true&theme=dark&hide_rank=false&disable_animations=true" alt="GitHub stats" />
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=PatrykBochenek&layout=compact&langs_count=6" alt="Top languages" />
-</p>
+```mermaid
+flowchart LR
+  U[You] --> ORC[opencode orchestrator]
+  ORC --> LIB[dev-librarian]
+  ORC --> RES[dev-researcher]
+  ORC --> ARC[dev-architect]
+  ORC --> BLD[dev-builder]
+  ORC --> VER[dev-verifier]
+  ORC --> SCR[dev-scribe]
+  ORC --> PL[dev-planner]
+```
+
+`portly`, `ai-config`, and this profile are built and edited with these agent workflows.
+
+</details>
+
+<details>
+<summary>transaction monitoring flow</summary>
+
+```mermaid
+sequenceDiagram
+  participant Tx as Transaction
+  participant K as Kafka
+  participant S as Stream Processor
+  participant R as Redis
+  participant DB as Storage
+  Tx->>K: emit event
+  K->>S: consume
+  S->>R: cache / state
+  S->>DB: persist
+  S-->>K: alert → topic
+```
+
+</details>
+
+---
+
+## Stack
+
+**Backend**
+`Python` · `FastAPI` · `Kafka` · `Redis` · `Rust`
+
+**Frontend**
+`React` · `TypeScript`
+
+**Tooling**
+`mise` · `Docker` · `GitHub Actions` · `opencode` · `Tailscale`
+
+---
 
 ## Contact
 
-- Email: **[contact@patrykbochenek.com](mailto:contact@patrykbochenek.com)**
+```text
+$ echo $EMAIL
+contact@patrykbochenek.com
+```
